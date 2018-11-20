@@ -1,10 +1,17 @@
 
 .jumbotron-fluid{
-	background-color: beige;
+	background-color: saddlebrown;
 	color: darkblue;
+	margin: 5px;
+	padding: 5px;
 }
 
 body{
 	background-color: black;
 	color: darkblue;
+}
+
+.card-deck{
+	margin: 20px;
+	padding: 20px;
 }

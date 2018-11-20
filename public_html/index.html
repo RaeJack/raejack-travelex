@@ -31,7 +31,7 @@
 						<a class="nav-link" href="#portfolio">Portfolio <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item" >
-						<a class="nav-link" href="#">Contact Me</a>
+						<a class="nav-link" href="#contact-me">Contact Me</a>
 					</li>
 				</ul>
 				<form class="form-inline my-2 my-lg-0">
@@ -55,7 +55,7 @@
 		<!-- card deck-->
 		<div class="card-deck">
 			<div class="card col-5">
-				<img class="card-img-top" src="photos/matanuska.jpg" height="410" width="3" alt="Matanuska Glacier"/>
+				<img class="card-img-top" src="photos/matanuska.jpg" height="410" width="2" alt="Matanuska Glacier"/>
 				<div class="card-body">
 					<h5 class="card-title">Matanuska Glacier</h5>
 					<p class="card-text">This is a blog</p>
@@ -63,7 +63,7 @@
 				</div>
 			</div>
 			<div class="card col-5">
-				<img class="card-img-top" src="photos/golden-gate.jpg" height="410" width="3" alt="Golden Gate Bridge"/>
+				<img class="card-img-top" src="photos/golden-gate.jpg" height="410" width="2" alt="Golden Gate Bridge"/>
 				<div class="card-body">
 					<h5 class="card-title">Golden Gate Bridge</h5>
 					<p class="card-text">This is a blog</p>
@@ -71,7 +71,7 @@
 				</div>
 			</div>
 			<div class="card col-5">
-				<img class="card-img-top" src="photos/poipu.jpg" height="410" width="3"/>
+				<img class="card-img-top" src="photos/poipu.jpg" height="410" width="2"/>
 				<div class="card-body">
 					<h5 class="card-title">Poipu Kauai Hawaii</h5>
 					<p class="card-text">This is a blog</p>
@@ -85,18 +85,19 @@
 
 		<div class="container-border">
 			<!--added container around entire contact form-->
-		<div class="container">
+					<div class="container">
 			<!-- Added top div class container -->
-		<form class="col-8 text-center border border-light p-5" action="php/mailer.php" method="post" id="my-form">
+						<h2 id="contact-me">Contact me</h2>
+			<form class="col-4 text-center border border-light p-2" action="php/mailer.php" method="post" id="my-form">
 
 
-			<p class="h4 mb-3">Contact Me</p>
+				<p class="h4 mb-3">Contact Me</p>
 
 			<!-- Name -->
-			<input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" name="name">
+				<input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" name="name">
 
 			<!-- Email -->
-			<input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="email">
+				<input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="email">
 
 
 			<!-- Subject -->
@@ -104,9 +105,9 @@
 			<input type="text" id="defaultContactFormFeedback" class="form-control mb-4" placeholder="Feedback" name="subject">
 
 			<!-- Message -->
-			<div class="form-group">
+						<div class="form-group">
 				<input type="textarea" class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message" name="message">
-			</div>
+					</div>
 			<div class="g-recaptcha" data-sitekey="6LfvGHwUAAAAAAkN92iQb5OyMllLcGgkXHbjwoZY"></div>
 
 			<!-- Send button -->
