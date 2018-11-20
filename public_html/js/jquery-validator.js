@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-	$("#my-contact-form").validate({
+	$("#my-form").validate({
 
 		debug: true,
 		errorClass: "alert alert-danger",
@@ -24,7 +24,7 @@ $(document).ready(function(){
 		message: {
 			required: true,
 			maxLength: 2000
-		}
+			}
 		},
 
 // error messages to display to the end user when rules above don't pass
@@ -44,7 +44,7 @@ $(document).ready(function(){
 
 		// AJAX submit the form data to back end if rules pass
 	 submitHandler: function(form){
-		 $("#my-contact-form").ajaxSubmit({
+		 $("#my-form").ajaxSubmit({
 		type: "POST",
 		url:$("my-contact-form").attr("action"),
 
@@ -57,7 +57,7 @@ $(document).ready(function(){
 
 			// reset the form if it was successful
 			if($(".alert-success").length >= 1) {
-				$("#my-contact-form")[0].reset();
+				$("#my-form")[0].reset();
 
 				}
 			}
