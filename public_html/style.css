@@ -1,9 +1,9 @@
 
 .jumbotron-fluid{
 	background-color: Brown!important;
+	color: grey;
 }
 
-.body{
+body{
 	background-color: black!important;
-	color: #blue;
 }
