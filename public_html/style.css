@@ -1,13 +1,13 @@
 
 .jumbotron-fluid{
-	background-color: saddlebrown;
+	background-color: black;
 	color: darkblue;
 	margin: 5px;
 	padding: 5px;
 }
 
 body{
-	background-color: black;
+	background-color: saddlebrown;
 	color: darkblue;
 }
 
