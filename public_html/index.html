@@ -8,6 +8,7 @@
 
 
 		<!--Bootstrap dependencies-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -53,9 +54,10 @@
 		</div>
 
 		<!-- card deck-->
+		<div class="container">
 		<div class="card-deck">
-			<div class="card col-5">
-				<img class="card-img-top" src="photos/matanuska.jpg" height="410" width="2" alt="Matanuska Glacier"/>
+			<div class="card">
+				<img class="card-img-top" src="photos/matanuska.jpg" height="220" width="2" alt="Matanuska Glacier"/>
 				<div class="card-body">
 					<h5 class="card-title">Matanuska Glacier</h5>
 					<p class="card-text">Summer of 2017 I went to Alaska to work at Sheep Mountain Lodge. <br>
@@ -64,8 +66,8 @@
 					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 				</div>
 			</div>
-			<div class="card col-5">
-				<img class="card-img-top" src="photos/golden-gate.jpg" height="410" width="2" alt="Golden Gate Bridge"/>
+			<div class="card">
+				<img class="card-img-top" src="photos/golden-gate.jpg" height="220" width="2" alt="Golden Gate Bridge"/>
 				<div class="card-body">
 					<h5 class="card-title">Golden Gate Bridge</h5>
 					<p class="card-text">In 2016, I got to sail under the Golden Gate Bridge with my team form the ship named the Pride of America <br>
@@ -73,8 +75,8 @@
 					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 				</div>
 			</div>
-			<div class="card col-5">
-				<img class="card-img-top" src="photos/poipu.jpg" height="410" width="2"/>
+			<div class="card">
+				<img class="card-img-top" src="photos/poipu.jpg" height="220" width="2"/>
 				<div class="card-body">
 					<h5 class="card-title">Poipu Kauai Hawaii</h5>
 					<p class="card-text">Poipu is a beach located in Kauai, HW. This beach is known for its massive sea turtles and <br>
@@ -83,6 +85,7 @@
 					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 				</div>
 			</div>
+		</div>
 		</div>
 
 		<!--contact me form-->
@@ -93,7 +96,7 @@
 					<div class="container">
 			<!-- Added top div class container -->
 						<h2 id="contact-me">Thank You</h2>
-			<form class="col-4 text-center border border-light p-2" action="php/mailer.php" method="post" id="my-form">
+			<form class="col-6 text-center border border-light p-2" action="php/mailer.php" method="post" id="my-form">
 
 
 				<p class="h4 mb-3">Contact Me</p>
@@ -107,7 +110,7 @@
 
 			<!-- Subject -->
 			<label>Subject</label>
-			<input type="text" id="defaultContactFormFeedback" class="form-control mb-4" placeholder="Feedback" name="subject">
+			<input type="text" id="defaultContactFormSubject" class="form-control mb-4" placeholder="Subject" name="subject">
 
 			<!-- Message -->
 						<div class="form-group">
